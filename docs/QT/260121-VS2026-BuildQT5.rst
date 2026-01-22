@@ -80,6 +80,13 @@ QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://downlo
 
     .\configure.bat -opensource -confirm-license -debug-and-release -prefix "E:\QTBuild_260121\OUT\Qt5.15.18\VC2026-x64-Shared" -platform win32-msvc -qt-sqlite -qt-pcre -qt-zlib -qt-libpng -qt-libjpeg -qt-freetype -qt-harfbuzz -opengl dynamic -skip qtwebengine -skip wayland -skip purchasing -skip qtspeech -skip qtdoc -nomake tests -nomake examples -optimize-size -strip -c++std c++17 -mp
 
+开始编译和安装：
+
+::
+
+    jom -j10
+    jom install
+
 静态编译QT5源代码
 ~~~~~~~~~~~~~~~~~
 
@@ -90,4 +97,11 @@ QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://downlo
 ::
 
     .\configure.bat -static -opensource -confirm-license -debug-and-release -prefix "E:\QTBuild_260121\OUT\Qt5.15.18\VC2026-x64-Static" -platform win32-msvc -qt-sqlite -qt-pcre -qt-zlib -qt-libpng -qt-libjpeg -qt-freetype -qt-harfbuzz -opengl dynamic -skip qtwebengine -skip wayland -skip purchasing -skip qtspeech -skip qtdoc -nomake tests -nomake examples -optimize-size -strip -c++std c++17 -mp
+
+开始编译和安装：
+
+::
+
+    jom -j10
+    jom install
 
