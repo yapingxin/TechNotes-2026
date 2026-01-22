@@ -103,6 +103,8 @@ QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://downlo
 修改 msvc-desktop.conf
 ^^^^^^^^^^^^^^^^^^^^^^
 
+修改源码里的 ``qtbase\mkspecs\common\msvc-desktop.conf`` 文件
+
 配置编译参数
 ^^^^^^^^^^^^
 
