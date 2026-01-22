@@ -66,8 +66,8 @@ QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://downlo
 
 推荐从以下地址下载该软件：
 
-# https://github.com/Cinchoo/ChoEazyCopy
-# https://sourceforge.net/projects/eazycopy-a-robocopy-gui/
+# https://github.com/Cinchoo/ChoEazyCopy 
+# https://sourceforge.net/projects/eazycopy-a-robocopy-gui/ 
 
 
 
