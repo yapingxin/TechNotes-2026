@@ -143,14 +143,14 @@ QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://downlo
 --------
 
 #. `Qt5.15在Windows环境静态编译安装和部署的完整过程 <https://last2win.com/qt-5.15-static-link/#codeqtbasemkspecscommonmsvc-desktopconfcode>`_ 
+#. `QT 5.15 及以后QT版本源码编译（静态库、动态库） <https://www.cnblogs.com/arxive/p/14412614.html>`_
+#. `在vs2022中对于QT5的简单使用 <https://blog.csdn.net/lemark2333/article/details/128058729>`_
 #. `Qt for Windows - Requirements <https://doc.qt.io/archives/qt-5.15/windows-requirements.html#building-from-source>`_
 #. `Qt5.15.17完整编译(包含QtWebengine和QDoc) <https://blog.csdn.net/gamerzhj/article/details/150574279?spm=1001.2014.3001.5502>`_
 #. `Qt使用多核(jom)加快编译速度 <https://blog.csdn.net/L_Andy/article/details/107450003>`_
 #. `如何在Windows环境下编译QT-5.15.17版本 <https://blog.csdn.net/cyfgod/article/details/148781140>`_ 
 #. `编译 Qt 5.15.x For Windows 基础教程 Visual Studio 2019 MSVC142 x64 <https://blog.csdn.net/qq_43331089/article/details/147814259>`_
 #. `Qt Configure Options <https://doc.qt.io/archives/qt-5.15/configure-options.html>`_
-#. `QT 5.15 及以后QT版本源码编译（静态库、动态库） <https://www.cnblogs.com/arxive/p/14412614.html>`_
 #. `记一次Qt 5.15源码编译 <https://zhuanlan.zhihu.com/p/394306561>`_
 #. `全自动编译qt5静态库(2024.2.23) <https://www.cnblogs.com/xy0797/p/18372635>`_
 #. `用vs2022编译Qt5源码 <https://zhuanlan.zhihu.com/p/1988037963406403002>`_
-#. `在vs2022中对于QT5的简单使用 <https://blog.csdn.net/lemark2333/article/details/128058729>`_
