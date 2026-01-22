@@ -44,9 +44,11 @@ QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://downlo
     - C++ compiler supporting the C++11 standard
 
 
-根据：
+根据上面的要求，安装下列软件：
 
-#. Visual Studio 2026（安装 C++ 桌面开发的Workload）
+#. Visual Studio 2026（包含 C++ 桌面开发的Workload）
+#. Perl v5.38.2 (当前最新版)。注意在 Windows 平台，Perl 有 ActivePerl 和 Strawberry Perl 这两种选择，推荐 Strawberry Perl；
+#. Python 3.14.0 (当前最新版)
 
 
 
