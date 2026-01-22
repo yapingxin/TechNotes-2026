@@ -24,5 +24,15 @@
 准备工作
 ~~~~~~~~
 
+下载QT5源代码
+^^^^^^^^^^^^^
+
+QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://download.qt.io/>`_ ，从中找到并下载QT 5.15.18 开源社区版的源代码： `qt-everywhere-opensource-src-5.15.18.zip <https://download.qt.io/archive/qt/5.15/5.15.18/single/qt-everywhere-opensource-src-5.15.18.zip>`_
+
+安装必需的软件
+^^^^^^^^^^^^^^
+
+#. Visual Studio 2026
+#. 
 
 
