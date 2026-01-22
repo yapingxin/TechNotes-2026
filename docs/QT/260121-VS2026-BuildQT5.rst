@@ -32,7 +32,18 @@ QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://downlo
 安装必需的软件
 ^^^^^^^^^^^^^^
 
-#. Visual Studio 2026
+将下载到的 `qt-everywhere-opensource-src-5.15.18.zip <https://download.qt.io/archive/qt/5.15/5.15.18/single/qt-everywhere-opensource-src-5.15.18.zip>`_ 解压，在源代码根目录的 README 文件中可以看到编译该源代码的系统要求：
+
+.. raw::
+   
+   System requirements
+   ------------------
+
+    - Perl 5.8 or later
+    - Python 2.7 or later
+    - C++ compiler supporting the C++11 standard
+
+#. Visual Studio 2026（安装 C++ 桌面开发的Workload）
 #. 
 
 
