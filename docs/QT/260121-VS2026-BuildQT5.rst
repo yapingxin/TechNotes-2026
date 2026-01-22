@@ -81,6 +81,8 @@ QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://downlo
 
     .\configure.bat -opensource -confirm-license -debug-and-release -prefix "E:\QTBuild_260121\OUT\Qt5.15.18\VC2026-x64-Shared" -platform win32-msvc -qt-sqlite -qt-pcre -qt-zlib -qt-libpng -qt-libjpeg -qt-freetype -qt-harfbuzz -opengl dynamic -skip qtwebengine -skip wayland -skip purchasing -skip qtspeech -skip qtdoc -nomake tests -nomake examples -optimize-size -strip -c++std c++17 -mp
 
+上述命令的参数的解释详见： `Qt Configure Options <https://doc.qt.io/archives/qt-5.15/configure-options.html>`_
+
 编译和安装
 ^^^^^^^^^^
 
@@ -146,3 +148,4 @@ QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://downlo
 #. `Qt使用多核(jom)加快编译速度 <https://blog.csdn.net/L_Andy/article/details/107450003>`_
 #. `如何在Windows环境下编译QT-5.15.17版本 <https://blog.csdn.net/cyfgod/article/details/148781140>`_ 
 #. `编译 Qt 5.15.x For Windows 基础教程 Visual Studio 2019 MSVC142 x64 <https://blog.csdn.net/qq_43331089/article/details/147814259>`_
+#. `Qt Configure Options <https://doc.qt.io/archives/qt-5.15/configure-options.html>`_
