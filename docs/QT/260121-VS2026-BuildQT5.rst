@@ -50,5 +50,12 @@ QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://downlo
 #. Perl v5.38.2 (当前最新版)。注意在 Windows 平台，Perl 有 ActivePerl 和 Strawberry Perl 这两种选择，推荐 Strawberry Perl；
 #. Python 3.14.0 (当前最新版)
 
+安装 Jom 以加速编译过程
+^^^^^^^^^^^^^^^^^^^^^^^
+
+然后，为了获得最大的编译速度，务必安装 `jom <https://wiki.qt.io/Jom>`_ 。 `jom <https://wiki.qt.io/Jom>`_ 的作用是充分利用现代计算机的多核，加快编译速度。
+
+其实你不安装 Jom 也行，后面的编译过程你用 nmake 就行，但是那样的话速度会明显慢很多。
+
 
 
