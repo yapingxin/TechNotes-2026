@@ -103,7 +103,21 @@ QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://downlo
 修改 msvc-desktop.conf
 ^^^^^^^^^^^^^^^^^^^^^^
 
-修改源码里的 ``qtbase\mkspecs\common\msvc-desktop.conf`` 文件
+修改源码里的 ``qtbase\mkspecs\common\msvc-desktop.conf`` 文件，搜索 ``-MD``，如 :numref:`fig_260121_msvc_desktop_conf_BeforeModify` 所示：
+
+.. figure:: Resource/260121-VS2026-BuildQT5/Snipaste_2026-01-21_13-40-54.png
+    :name: fig_260121_msvc_desktop_conf_BeforeModify
+    :align: center
+
+    msvc-desktop.conf 修改前
+
+将 ``-MD`` 修改为 ``-MT`` ，如 :numref:`fig_260121_msvc_desktop_conf_AfterModify` 所示：
+
+.. figure:: Resource/260121-VS2026-BuildQT5/Snipaste_2026-01-21_13-41-22.png
+    :name: fig_260121_msvc_desktop_conf_AfterModify
+    :align: center
+
+    msvc-desktop.conf 修改后
 
 配置编译参数
 ^^^^^^^^^^^^
