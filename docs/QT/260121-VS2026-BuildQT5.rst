@@ -84,8 +84,16 @@ QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://downlo
 
 ::
 
-    jom -j10
+    jom -j16
     jom install
+
+编译的过程是非常耗时的，有些人在 ``jom `` 这一步耗费了三、四个小时的时间。这项工作需要强大的多核处理器，并且需要硬盘的 I/O 性能尽可能好。我选用了手头CPU最强劲的移动工作站。如 :numref:`fig_260121_Compile` 所示，CPU 利用率非常高，只用了 40 分钟左右就完成了编译。
+
+.. figure:: Resource/260121-VS2026-BuildQT5/Snipaste_2026-01-21_13-59-25.png
+    :name: fig_260121_Compile
+    :align: center
+
+    编译 QT5 源代码
 
 静态编译QT5源代码
 ~~~~~~~~~~~~~~~~~
@@ -102,6 +110,6 @@ QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://downlo
 
 ::
 
-    jom -j10
+    jom -j16
     jom install
 
