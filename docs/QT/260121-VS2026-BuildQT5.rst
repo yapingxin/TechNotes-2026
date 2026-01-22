@@ -72,15 +72,17 @@ QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://downlo
 动态编译QT5源代码
 ~~~~~~~~~~~~~~~~~
 
-打开 `x64 Native Tools Command Prompt for VS 2026` 和 `x86 Native Tools Command Prompt for VS 2026` 分别用于编译 64 位和 32 位 QT5 动态链接库。
+配置编译参数
+^^^^^^^^^^^^
 
-配置编译参数：
+打开 `x64 Native Tools Command Prompt for VS 2026` 和 `x86 Native Tools Command Prompt for VS 2026` 分别用于编译 64 位和 32 位 QT5 动态链接库。
 
 ::
 
     .\configure.bat -opensource -confirm-license -debug-and-release -prefix "E:\QTBuild_260121\OUT\Qt5.15.18\VC2026-x64-Shared" -platform win32-msvc -qt-sqlite -qt-pcre -qt-zlib -qt-libpng -qt-libjpeg -qt-freetype -qt-harfbuzz -opengl dynamic -skip qtwebengine -skip wayland -skip purchasing -skip qtspeech -skip qtdoc -nomake tests -nomake examples -optimize-size -strip -c++std c++17 -mp
 
-开始编译和安装：
+编译和安装
+^^^^^^^^^^
 
 ::
 
@@ -98,15 +100,20 @@ QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://downlo
 静态编译QT5源代码
 ~~~~~~~~~~~~~~~~~
 
-打开 `x64 Native Tools Command Prompt for VS 2026` 和 `x86 Native Tools Command Prompt for VS 2026` 分别用于编译 64 位和 32 位 QT5 静态库。
+修改 msvc-desktop.conf
+^^^^^^^^^^^^^^^^^^^^^^
 
-配置编译参数：
+配置编译参数
+^^^^^^^^^^^^
+
+打开 `x64 Native Tools Command Prompt for VS 2026` 和 `x86 Native Tools Command Prompt for VS 2026` 分别用于编译 64 位和 32 位 QT5 静态库。
 
 ::
 
     .\configure.bat -static -opensource -confirm-license -debug-and-release -prefix "E:\QTBuild_260121\OUT\Qt5.15.18\VC2026-x64-Static" -platform win32-msvc -qt-sqlite -qt-pcre -qt-zlib -qt-libpng -qt-libjpeg -qt-freetype -qt-harfbuzz -opengl dynamic -skip qtwebengine -skip wayland -skip purchasing -skip qtspeech -skip qtdoc -nomake tests -nomake examples -optimize-size -strip -c++std c++17 -mp
 
-开始编译和安装：
+编译和安装
+^^^^^^^^^^
 
 ::
 
