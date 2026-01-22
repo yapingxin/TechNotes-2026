@@ -57,5 +57,17 @@ QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://downlo
 
 其实你不安装 Jom 也行，后面的编译过程你用 nmake 就行，但是那样的话速度会明显慢很多。
 
+实用工具：快速拷贝文件 ChoEasyCopy
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+在实际操作中，折腾 QT 的编译过程，不可避免地要多次拷贝解压出来的源代码，这个文件夹挺大的，里面碎片文件特别多，用 Windows 系统默认的拷贝功能，时间非常长。而且令我很崩溃的是，在一次拷贝的过程中，遇到了文件路径超出最大限制（就是 C/C++ 编程里面的 MAX_PATH 宏定义）的问题导致个别文件拷贝失败，如果单独找出这些拷贝失败的文件来又非常麻烦。
+
+所以我搜索快速拷贝工具。一开始是想找 Robocopy GUI 这样的工具，但我很快发现了另一个更好用的工具： `ChoEasyCopy <https://github.com/Cinchoo/ChoEazyCopy>`_ 。关于这个工具软件的介绍请看： `ChoEazyCopy, Yet Another RoboCopy GUI <https://cinchoo.medium.com/eazycopy-yet-another-robocopy-gui-96b2713bf324>`_
+
+推荐从以下地址下载该软件：
+# https://github.com/Cinchoo/ChoEazyCopy
+# https://sourceforge.net/projects/eazycopy-a-robocopy-gui/
+
+
 
 
