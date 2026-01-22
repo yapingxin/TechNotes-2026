@@ -65,6 +65,7 @@ QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://downlo
 所以我搜索快速拷贝工具。一开始是想找 Robocopy GUI 这样的工具，但我很快发现了另一个更好用的工具： `ChoEasyCopy <https://github.com/Cinchoo/ChoEazyCopy>`_ 。关于这个工具软件的介绍请看： `ChoEazyCopy, Yet Another RoboCopy GUI <https://cinchoo.medium.com/eazycopy-yet-another-robocopy-gui-96b2713bf324>`_
 
 推荐从以下地址下载该软件：
+
 # https://github.com/Cinchoo/ChoEazyCopy
 # https://sourceforge.net/projects/eazycopy-a-robocopy-gui/
 
