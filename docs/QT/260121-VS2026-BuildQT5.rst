@@ -43,7 +43,10 @@ QT 官方网站上的开源代码入口地址是：`Qt Downloads <https://downlo
     - Python 2.7 or later
     - C++ compiler supporting the C++11 standard
 
+
+根据：
+
 #. Visual Studio 2026（安装 C++ 桌面开发的Workload）
-#. 
+
 
 
