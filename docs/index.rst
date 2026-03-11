@@ -9,8 +9,8 @@
 =====================================
 
 .. toctree::
-   :maxdepth: 1
-   :caption: QT
+   :maxdepth: 2
+   :caption: 目录
    :numbered:
    
-   QT/260121-VS2026-BuildQT5.rst
+   QT/index.rst
