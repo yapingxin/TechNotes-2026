@@ -5,11 +5,11 @@ Vivado SDK 2018.3 源代码显示设置
 问题
 ----
 
-在 Vivado SDK 2018.3 中显示源代码，默认的效果如 :numref:`fig_260311_Vivado_SDK_CodeEcho_Default` 所示：
+在 Vivado SDK 2018.3 中显示源代码，默认的效果如 :numref:`fig_260311_Vivado_SDK_Default` 所示：
 
 .. figure:: Resource/260311/Snipaste_2026-03-11_10-26-31.png
-    :name: fig_260311_Vivado_SDK_CodeEcho_Default
+    :name: fig_260311_Vivado_SDK_Default
     :align: center
-
-    Vivado SDK 2018.3 默认的代码显示效果
+	
+	Vivado SDK 2018.3 默认的代码显示效果
 
