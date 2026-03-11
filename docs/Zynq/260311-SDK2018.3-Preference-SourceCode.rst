@@ -11,6 +11,6 @@ Vivado SDK 2018.3 源代码显示设置
     :name: fig_260311_Default
     :align: center
 
-    编译 QT5 源代码
+    Vivado SDK 2018.3 默认的源代码显示效果
 
 测试。
