@@ -17,12 +17,14 @@ Vivado SDK 2018.3 源代码显示设置
 #. 中文太小，基本不可读；
 #. 源代码没有行号显示；
 
-另外，我还希望在第120字符处显示一条淡淡的竖线，提示我打印边界，以使我对过长的代码主动进行一点调整。
+另外，我还希望：
+#. 以空格代替制表符(Tab)；
+#. 在第120字符处显示一条淡淡的竖线，提示我打印边界，以使我对过长的代码主动进行一点调整。
 
 配置
 ----
 
-为了改善上述问题，在 SDK 菜单 Windows | Preference 中进行以下设置，如 :numref:`fig_260311_setfont` 和 :numref:`fig_260311_set_linenumber_tab_printmargin` 所示：
+为了改善上述问题，在 SDK 菜单 Windows | Preference 中进行设置，如 :numref:`fig_260311_setfont` 和 :numref:`fig_260311_set_linenumber_tab_printmargin` 所示：
 
 .. figure:: Resource/260311/Snipaste_2026-03-11_10-20-57.png
     :name: fig_260311_setfont
@@ -36,5 +38,12 @@ Vivado SDK 2018.3 源代码显示设置
 
     设置源代码显示行号、用空格代替制表符、显示打印边界
 
-经过上述设置，
+经过上述设置，源代码显示效果如 :numref:`fig_260311_effects` 所示。
 
+.. figure:: Resource/260311/Snipaste_2026-03-11_10-52-12.png
+    :name: fig_260311_effects
+    :align: center
+
+    设置后的源代码显示效果
+
+达到了设置的目的。
