@@ -14,3 +14,4 @@
    :numbered:
    
    QT/index.rst
+   ZYNQ/index.rst
